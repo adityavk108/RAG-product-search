@@ -1,0 +1,13 @@
+create a .env file in the backend folder according to the example, and add your gemini API key. 
+
+just run ./quickstart.bat (make sure you have docker desktop)
+
+http://localhost:3000         for react UI
+http://localhost:8000/docs    for endpoints/docs
+http://localhost:7474         for neo4j
+
+run:
+docker compose down -v
+or
+& "C:\Program Files\Docker\Docker\resources\bin\docker.exe" compose down -v
+to boot down images
