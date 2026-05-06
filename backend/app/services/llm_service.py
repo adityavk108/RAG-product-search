@@ -39,9 +39,9 @@ class LLMService:
                 if 'generateContent' in model.supported_generation_methods:
                     logger.info(f"Available model: {model.name}")
             
-            self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
+            self.model = genai.GenerativeModel('gemini-2.5-flash-lite')
             self.is_initialized = True
-            logger.info("Gemini model initialized successfully (using gemini-2.0-flash-lite)")
+            logger.info("Gemini model initialized successfully (using gemini-2.5-flash-lite)")
             return True
         except Exception as e:
             logger.error(f"Failed to initialize Gemini: {e}")

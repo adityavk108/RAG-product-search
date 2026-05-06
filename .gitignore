@@ -1,5 +1,5 @@
-# Exclude phases folder
 phases/
+AGENTS.md 
 
 # Python
 __pycache__/
